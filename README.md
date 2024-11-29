@@ -19,6 +19,7 @@ N3 =         } catch (Exception e) {
 N4 =  return conn
    
 N5 =     public String nome = "";
+
     public boolean result = false;
 
     public boolean verificarUsuario(String login, String senha) {
