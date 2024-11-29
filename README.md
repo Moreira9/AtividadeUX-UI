@@ -5,19 +5,29 @@
 
 NODOS:
 
-N1 =  public class User {
+N1 
+~~~JAVA
+public class User {
     public Connection conectarBD() {
         Connection conn = null
+~~~
 
-N2 =         try {
+N2 
+~~~JAVA
+    try {
         	Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
             String url = "jdbc:mysql://127.0.0.1/teste?user=root&password=1234";
             conn = DriverManager.getConnection(url);
+~~~
 
-N3 =         } catch (Exception e) {
+N3
+~~~JAVA
+} catch (Exception e) {
         }
-
+~~~
+~~~JAVA
 N4 =  return conn
+~~~
    
 N5 =     public String nome = "";
 
