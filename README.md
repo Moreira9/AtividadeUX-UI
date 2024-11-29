@@ -2,7 +2,7 @@
 OBS: Acesse a brach correspondente a etapa 
 
 
---ETAPA 1--
+# --ETAPA 1--
 
 Teste de Caixa Branca (Estático)
 
@@ -16,7 +16,7 @@ Envie o mesmo para um repositório remoto;
 
 Dentro do seu repositório, crie um Readme explicando os erros encontrados;
 
---ETAPA 2--
+#  --ETAPA 2--
 
 Utilize a mesma BRANCH recém-criada para está etapa;
 
@@ -28,7 +28,7 @@ Verifique o conteúdo disponível na aula para preenchimento do arquivo;
 
 Insira o arquivo no repositório remoto criado.
 
---ETAPA 3--
+#  --ETAPA 3--
 
 Critérios de Caixa Branca - (Grafo de Fluxo; Complexidade Ciclomática; Base de Caminhos)
 
@@ -58,7 +58,7 @@ Utilize o material apresentado durante a aula;
 
 Em caso de dúvidas entre em contato no e-mail: daniel.ohata@facens.br.
 
---ETAPA 4 --
+#  --ETAPA 4 --
 
 Documentação
 
