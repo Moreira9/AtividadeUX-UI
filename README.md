@@ -31,7 +31,7 @@ Inserir dados no seu banco de dados
 ~~~SQL
 INSERT INTO usuarios (login, senha, nome) VALUES ('Zhefiroth', '1234', 'Matheus');
 ~~~
-Lembrar de confirar corretament a parte da url
+Lembrar de configurar corretament a parte da url
 
 "jdbc:mysql://127.0.0.1/Nome_do_seu_Banco_de_Dados?user=Seu_usuario_do_MYSQL&password=Sua_senha"
 
