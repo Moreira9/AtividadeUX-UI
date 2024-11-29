@@ -14,9 +14,9 @@ O projeto consiste em duas classes principais:
 Precisa criar um banco de dados sql com o seguintes comandos:
 
 Criação do Banco de dados
-
+~~~SQL
 CREATE DATABASE teste;
-
+~~~
 Criação da tabela usuarios
 ~~~SQL
 CREATE TABLE usuarios (
@@ -28,9 +28,9 @@ CREATE TABLE usuarios (
 ~~~
 
 Inserir dados no seu banco de dados
-
+~~~SQL
 INSERT INTO usuarios (login, senha, nome) VALUES ('Zhefiroth', '1234', 'Matheus');
-
+~~~
 Lembrar de confirar corretament a parte da url
 
 "jdbc:mysql://127.0.0.1/Nome_do_seu_Banco_de_Dados?user=Seu_usuario_do_MYSQL&password=Sua_senha"
