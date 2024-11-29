@@ -25,11 +25,14 @@ N3
 } catch (Exception e) {
         }
 ~~~
+N4
 ~~~JAVA
-N4 =  return conn
+return conn
 ~~~
    
-N5 =     public String nome = "";
+N5   
+~~~JAVA
+public String nome = "";
 
     public boolean result = false;
 
@@ -41,27 +44,42 @@ N5 =     public String nome = "";
         // INSTRUÇÃO SQL
         sql = "select nome from usuarios ";
         sql += "where login = '" + login + "' ";
-        sql += "and senha = '" + senha + "';";  
+        sql += "and senha = '" + senha + "';";
+~~~
 
-N6 =         try {
+N6
+~~~JAVA
+            try {
             Statement st = conn.createStatement();
             ResultSet rs = st.executeQuery(sql);
             if (rs.next()) {
                 result = true;
                 nome = rs.getString("nome");
             }
+~~~
 
-N7 =         } catch (Exception e) {
-        }   
+N7  
+~~~JAVA
+        } catch (Exception e) {
+        }
+~~~ 
 
-N8 =             if (rs.next()) {
+N8 
+~~~JAVA
+            if (rs.next()) {
                 result = true;
                 nome = rs.getString("nome");
             }
+~~~ 
 
-N9 = caso o if seja falso
+N9 
 
-N10 =  return result;    
+caso o if seja falso
+
+N10
+~~~JAVA
+return result;
+~~~ 
 
 ## Caminho e a conta dos caminhos
 
