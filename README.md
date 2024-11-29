@@ -1,6 +1,6 @@
 ## Grafo
 
-![Diagrama](https://github.com/user-attachments/assets/86f1da7f-26dc-4b72-a742-cbb6c9c5faab)
+![Grafo](https://github.com/user-attachments/assets/96bafe71-4e14-4a09-8120-1b5205240138)
 
 
 NODOS:
