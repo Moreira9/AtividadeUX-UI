@@ -56,15 +56,23 @@ N10 =  return result;
 ## Caminho e a conta dos caminhos
 
 C1 = N1,N2,N4,N5,N6,N8,N10
+
 C2 = N1,N2,N4,N5,N6,N9,N10
+
 C3 = N1,N2,N4,N5,N7,N10
+
 C4 = N1,N3,N4,N5,N7,N10
+
 C5 = N1,N3,N4,N5,N6,N8,N10
+
 C6 = N1,N3,N4,N5,N6,N9,N10
+
 
 ## Complexidade ciclomática
 V(G) = E – N + 2.
+
 V(G) = 12 - 10 + 2
+
 V(G) = 4
 
 
