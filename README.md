@@ -1,5 +1,5 @@
 # AtividadeUX-UI
-OBS:acesse a brach correspondente a etapa 
+OBS: Acesse a brach correspondente a etapa 
 
 
 --ETAPA 1--
