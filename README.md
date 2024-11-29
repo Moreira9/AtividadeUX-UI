@@ -99,9 +99,9 @@ C6 = N1,N3,N4,N5,N6,N9,N10
 ## Complexidade ciclomática
 V(G) = E – N + 2.
 
-V(G) = 12 - 10 + 2
+V(G) = 10 - 10 + 2
 
-V(G) = 4
+V(G) = 2
 
 
 
