@@ -14,7 +14,9 @@ N2 =         try {
             conn = DriverManager.getConnection(url);
 N3 =         } catch (Exception e) {
         }
-N4 =  return conn;    
+
+N4 =  return conn
+   
 N5 =     public String nome = "";
     public boolean result = false;
 
@@ -27,6 +29,7 @@ N5 =     public String nome = "";
         sql = "select nome from usuarios ";
         sql += "where login = '" + login + "' ";
         sql += "and senha = '" + senha + "';";  
+
 N6 =         try {
             Statement st = conn.createStatement();
             ResultSet rs = st.executeQuery(sql);
@@ -34,13 +37,17 @@ N6 =         try {
                 result = true;
                 nome = rs.getString("nome");
             }
+
 N7 =         } catch (Exception e) {
         }   
+
 N8 =             if (rs.next()) {
                 result = true;
                 nome = rs.getString("nome");
             }
+
 N9 = caso o if seja falso
+
 N10 =  return result;    
 
 ## Caminho e a conta dos caminhos
