@@ -12,6 +12,7 @@ N2 =         try {
         	Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
             String url = "jdbc:mysql://127.0.0.1/teste?user=root&password=1234";
             conn = DriverManager.getConnection(url);
+
 N3 =         } catch (Exception e) {
         }
 
