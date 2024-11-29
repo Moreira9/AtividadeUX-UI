@@ -18,13 +18,14 @@ Criação do Banco de dados
 CREATE DATABASE teste;
 
 Criação da tabela usuarios
-
+~~~SQL
 CREATE TABLE usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
     login VARCHAR(50) NOT NULL,
     senha VARCHAR(50) NOT NULL,
     nome VARCHAR(100) NOT NULL
 );
+~~~
 
 Inserir dados no seu banco de dados
 
