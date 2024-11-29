@@ -6,7 +6,8 @@ NODOS:
 
 N1 =  public class User {
     public Connection conectarBD() {
-        Connection conn = null;
+        Connection conn = null
+
 N2 =         try {
         	Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
             String url = "jdbc:mysql://127.0.0.1/teste?user=root&password=1234";
