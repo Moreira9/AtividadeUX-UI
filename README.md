@@ -1,6 +1,7 @@
 ## Diagrama
 
-![alt text](image-1.png)
+![Diagrama](https://github.com/user-attachments/assets/86f1da7f-26dc-4b72-a742-cbb6c9c5faab)
+
 
 NODOS:
 
