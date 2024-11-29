@@ -84,6 +84,6 @@ O exercício e sua entrega é individual;
 
 Utilize o tempo disponibilizado durante as aulas para tirar suas dúvidas e realizar a atividade;
 
-Caso precise de auxílio envie e-mail para daniel.ohata@facens.br.
+
 
  
