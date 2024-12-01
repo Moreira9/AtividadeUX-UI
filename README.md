@@ -26,20 +26,15 @@ Problema: Desde o JDBC 4.0, não é necessário registrar o driver manualmente.
 
 Problema: Se a conexão conn não for estabelecida, conn.createStatement() resultará em erro.
 
-
-## 7 Variáveis de Instância Desnecessárias:
-
-Problema: nome e result são variáveis de instância, mas poderiam ser locais.
-
-##  8 Falta de Separação de Responsabilidades:
+##  7 Falta de Separação de Responsabilidades:
 
 Problema: A classe User está responsável por conexão com o banco e lógica de negócio.
 
-## 9 Uso de Variáveis Globais:
+## 8 Uso de Variáveis Globais:
 
 Problema: O uso de variáveis globais como nome pode levar a resultados inesperados em aplicações com múltiplos usuários.
 
-## 10 Não Verificação de Erros de Conexão:
+## 9 Não Verificação de Erros de Conexão:
 
 Problema: Não há verificação se a conexão com o banco foi bem-sucedida antes de executar a consulta.
 
