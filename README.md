@@ -39,11 +39,7 @@ Problema: A classe User está responsável por conexão com o banco e lógica de
 
 Problema: O uso de variáveis globais como nome pode levar a resultados inesperados em aplicações com múltiplos usuários.
 
-## 10 Mensagem de Retorno Inconsistente:
-
-Problema: O método verificarUsuario retorna um booleano, mas o nome do usuário é armazenado em uma variável de instância.
-
-## 11 Não Verificação de Erros de Conexão:
+## 10 Não Verificação de Erros de Conexão:
 
 Problema: Não há verificação se a conexão com o banco foi bem-sucedida antes de executar a consulta.
 
